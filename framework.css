@@ -1,0 +1,23 @@
+[class^="col-"] {
+  float: left;
+}
+
+.container {
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:768px){
+  .cont-xs-1 {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .col-xs-1 {
+    width: calc(90% / 1);
+    float: none;
+    margin: auto;
+}
